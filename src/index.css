@@ -1,0 +1,284 @@
+
+:root {
+  --colore-principale: #884A39;
+  --colore-supporto-1: #C38154; 
+  --colore-supporto-2: #FFC26F; 
+  --colore-evidenziazione: #F9E0BB;
+}
+
+/* Stile per i link nella barra di navigazione */
+.navbar-nav .nav-link {
+  color: var(--colore-principale); 
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Stile hover per i link nella barra di navigazione */
+.navbar-nav .nav-link:hover {
+  color: var(--colore-supporto-2); 
+}
+
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* Stile per i caption del carousel */
+.carousel-caption {
+  text-shadow: 2px 2px black;
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.container-bg {
+  position: relative;
+  background-image: url('img/Sfondo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; 
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  padding: 20px;
+  max-width: 600px; 
+  margin: auto; 
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  color: var(--colore-principale);
+  font-size: 22px;
+}
+
+
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+}
+
+/* Stile per la sezione con sfondo personalizzato del form */
+.franchise-section {
+  background-image: url(img/sfondoform.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+
+/* Stile per il form all'interno della sezione personalizzata */
+.franchise-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Stile per l'intestazione del form */
+.franchise-form h2 {
+  color: whitesmoke;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+/* Stile per il form */
+.franchise-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Stile per le etichette del form */
+.franchise-form label {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+/* Stile per gli input e le textarea del form */
+form input,
+.franchise-form textarea {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* Stile per il pulsante del form */
+.franchise-form button {
+  padding: 10px;
+  background-color: var(--colore-supporto-2);
+  color: var(--colore-principale);
+  border-color: var(--colore-principale);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+/* Stile hover per il pulsante del form */
+.franchise-form button:hover {
+  color: var(--colore-supporto-2);
+  background-color: var(--colore-principale);
+}
+
+/* Stile per il footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #eeeeee;
+  color: var(--colore-principale);
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Stile per il contenuto del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stile per le informazioni del negozio nel footer */
+.store-info img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+/* Stile per il testo nel footer */
+.store-info p {
+  margin: 0;
+}
+
+/* Stile per i social media nel footer */
+.social-media img {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+/* Stile per le immagini delle card */
+.card-img-top {
+  height: 15rem;
+}
+
+/* Stile per l'input di ricerca nella navbar */
+input.me-2 {
+  border-radius: 7px;
+  border-color: var(--colore-principale);
+}
+
+/* Stile personalizzato per i pulsanti custom nelle card */
+.btn.btn-custom {
+  color: var(--colore-principale); 
+  background-color: var(--colore-supporto-2); 
+  border-color: var(--colore-principale); 
+}
+
+/* Stile hover per i pulsanti custom nelle card */
+.btn.btn-custom:hover {
+  color: var(--colore-evidenziazione);
+  background-color: var(--colore-supporto-1);
+  border-color: var(--colore-supporto-2);
+}
+
+/* Stile hover per la form-control nella navbar */
+.navbar .form-control:hover {
+  border-width: none;
+}
+
+/* Stile per la sezione delle card nel negozio con sfondo personalizzato */
+.card-item-container {
+  background-image: url(../src/img/sfondo-shop.jpeg); 
+  background-size: cover; 
+  background-position: center; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stile per i pulsanti custom all'interno delle card */
+.card .btn.btn-custom {
+  color: var(--colore-principale); 
+  background-color: var(--colore-supporto-2); 
+  border-color: var(--colore-principale); 
+}
+
+/* Stile hover per i pulsanti custom all'interno delle card */
+.card .btn.btn-custom:hover {
+  color: var(--colore-evidenziazione);
+  background-color: var(--colore-supporto-1);
+  border-color: var(--colore-supporto-2);
+}
+
+
+.btn-custom {
+  color: var(--colore-evidenziazione);
+  background-color: var(--colore-supporto-1);
+  border-color: var(--colore-supporto-2);
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.custom-heading {
+  color: var(--colore-principale); 
+  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+.container-lista {
+  background-color: var(--colore-evidenziazione);
+}
+
+.form-control {
+  max-width: 83rem;
+  margin-left: 10px;
+}
+
