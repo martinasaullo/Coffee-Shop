@@ -1,8 +1,26 @@
-# React + Vite
+# Coffee Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrizione
+Questo progetto rappresenta un'applicazione di coffee shop sviluppata come valutazione finale durante il corso di formazione **Digitazon**.
 
-Currently, two official plugins are available:
+## Tecnologie Utilizzate
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- **HTML**
+- **CSS**
+- **React**
+- **Vite.js**
+- **Bootstrap**
+### Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+
+## Caratteristiche del Progetto
+- **Interfaccia Utente Intuitiva**: Gli utenti possono navigare facilmente attraverso il menu e selezionare i prodotti desiderati.
+- **Gestione degli Articoli**: Si possono aggiungere, modificare e rimuovere articoli dal menu.
+
+## Installazione
+-npm install
+-npm run dev
+
