@@ -1,9 +1,9 @@
 # Coffee Shop
 
-## Descrizione
-Questo progetto rappresenta un'applicazione di coffee shop sviluppata come valutazione finale durante il corso di formazione **Digitazon**.
+## Description
+This project represents a coffee shop application developed as a final assessment during the **Digitazon** training course.
 
-## Tecnologie Utilizzate
+## Technologies Used
 
 ### Frontend
 - **HTML**
@@ -11,16 +11,24 @@ Questo progetto rappresenta un'applicazione di coffee shop sviluppata come valut
 - **React**
 - **Vite.js**
 - **Bootstrap**
+
 ### Backend
 - **Node.js**
 - **Express.js**
 - **MongoDB**
 
-## Caratteristiche del Progetto
-- **Interfaccia Utente Intuitiva**: Gli utenti possono navigare facilmente attraverso il menu e selezionare i prodotti desiderati.
-- **Gestione degli Articoli**: Si possono aggiungere, modificare e rimuovere articoli dal menu.
+## Project Features
+- **Intuitive User Interface**: Users can easily browse the menu and select desired products.
+- **Item Management**: Add, edit, and remove items from the menu.
 
-## Installazione
--npm install
--npm run dev
+## Installation
+To run the project locally, follow these steps:
+
+1. **Clone the Repository**  
+   Clone this repository using the command:
+   ```bash
+   git clone https://github.com/martinasaullo/Coffee-Shop.git
+
+2. **npm install**
+3. **npm run dev**
 
